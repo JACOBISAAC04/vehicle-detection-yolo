@@ -69,10 +69,10 @@ Here is an example output of the video detection saved as a GIF:
 Contains input videos, and the external model file.
 
 ### src/
-Includes Python scripts for both image and video vehicle detection using YOLOv8.
+Includes Python scripts for video vehicle detection using YOLOv8.
 
 ### output/
-Stores the processed outputs — detected images, video results, and animated GIFs.
+Stores the processed outputs — video results, and animated GIFs.
 
 ### notebooks/
 Exploratory notebooks used for testing and development.
