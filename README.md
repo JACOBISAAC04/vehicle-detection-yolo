@@ -53,7 +53,7 @@ data/models/yolov8x.pt
 
 Run the following command to detect vehicles in a video and generate a GIF:
 ```bash
-python src/video_detection.py --video data/videos/input_video.mp4 --output_video output/videos/output_video.mp4 --output_gif output/gifs/output_video.gif
+python src/video_detection.py --video data/videos/3.mp4 --output_video output/videos/output_video.mp4 --output_gif output/gifs/output_video.gif
 ```
 ## Project Components
 
