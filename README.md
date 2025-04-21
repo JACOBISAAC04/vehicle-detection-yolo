@@ -1,12 +1,11 @@
+# Vehicle-Detection-YOLO
 
-# PPE-Detection-YOLO
-
-This repository contains a project that uses YOLO for detecting Personal Protective Equipment (PPE) in images and videos. The project includes pre-trained models, scripts for image and video detection, and examples for testing.
+This repository contains a project that uses the YOLOv8 model for detecting vehicles (cars, trucks, etc.) in images and videos. The project includes pre-trained models (linked externally), scripts for real-time image and video detection, and output examples.
 
 ## Project Structure
 
 ```
-PPE-Detection/
+vehicle-detection-yolo/
 ├── data/
 │   ├── images/
 │   ├── videos/
@@ -19,7 +18,7 @@ PPE-Detection/
 │   ├── videos/
 │   └── gifs/
 ├── notebooks/
-│   ├── EDA.ipynb
+│   ├── exploration.ipynb
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -29,8 +28,8 @@ PPE-Detection/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/oaslananka/PPE-Detection-YOLO.git
-   cd PPE-Detection
+   git clone https://github.com/JACOBISAAC04/vehicle-detection-yolo.git
+   cd vehicle-detection-yolo
    ```
 
 2. Install the required libraries:
@@ -38,20 +37,32 @@ PPE-Detection/
    pip install -r requirements.txt
    ```
 
+## YOLOv8 Model File
+
+This project uses the YOLOv8x model from Ultralytics.
+
+🔗 [Download yolov8x.pt from the official source](https://github.com/ultralytics/ultralytics/releases/tag/v8.0.0)
+
+After downloading, place the file in:
+
+```
+data/models/yolov8x.pt
+```
+
 ## Usage
 
 ### Image Detection
 
-Run the following command to detect PPE in an image:
+Run the following command to detect vehicles in an image:
 ```bash
-python src/image_detection.py --image data/images/example_image.jpg --output output/output_image.jpg
+python src/image_detection.py --image data/images/example.jpg --output output/images/output_image.jpg
 ```
 
 ### Video Detection
 
-Run the following command to detect PPE in a video:
+Run the following command to detect vehicles in a video and generate a GIF:
 ```bash
-python src/video_detection.py --video inputs/3.mp4 --output_video output/output_video.mp4 --output_gif output/output_video.gif
+python src/video_detection.py --video data/videos/input_video.mp4 --output_video output/videos/output_video.mp4 --output_gif output/gifs/output_video.gif
 ```
 
 ## Example Output
@@ -63,17 +74,18 @@ Here is an example output of the video detection saved as a GIF:
 ## Project Components
 
 ### data/
-Contains sample images, videos, and the pre-trained model.
+Contains input images, videos, and the external model file.
 
 ### src/
-Includes the main scripts for image and video detection.
+Includes Python scripts for both image and video vehicle detection using YOLOv8.
 
 ### output/
-Stores the processed output images, videos, and GIFs.
+Stores the processed outputs — detected images, video results, and animated GIFs.
 
 ### notebooks/
-Holds Jupyter notebooks for data exploration and analysis.
+Exploratory notebooks used for testing and development.
 
 ## License
 
 This project is licensed under the MIT License.
+```
