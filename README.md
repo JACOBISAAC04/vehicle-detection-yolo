@@ -7,7 +7,6 @@ This repository contains a project that uses the YOLOv8 model for detecting vehi
 ```
 vehicle-detection-yolo/
 ├── data/
-│   ├── images/
 │   ├── videos/
 │   └── models/
 ├── src/
@@ -51,13 +50,6 @@ data/models/yolov8x.pt
 
 ## Usage
 
-### Image Detection
-
-Run the following command to detect vehicles in an image:
-```bash
-python src/image_detection.py --image data/images/example.jpg --output output/images/output_image.jpg
-```
-
 ### Video Detection
 
 Run the following command to detect vehicles in a video and generate a GIF:
@@ -74,7 +66,7 @@ Here is an example output of the video detection saved as a GIF:
 ## Project Components
 
 ### data/
-Contains input images, videos, and the external model file.
+Contains input videos, and the external model file.
 
 ### src/
 Includes Python scripts for both image and video vehicle detection using YOLOv8.
