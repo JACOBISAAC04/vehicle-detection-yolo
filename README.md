@@ -41,7 +41,7 @@ vehicle-detection-yolo/
 
 This project uses the YOLOv8x model from Ultralytics.
 
-🔗 [Download yolov8x.pt from the official source](https://github.com/ultralytics/ultralytics/releases/tag/v8.0.0)
+🔗 [Download yolov8x.pt from the official source](https://github.com/ultralytics/assets/releases/latest)
 
 After downloading, place the file in:
 
