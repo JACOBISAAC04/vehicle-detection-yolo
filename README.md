@@ -11,7 +11,6 @@ vehicle-detection-yolo/
 │   ├── videos/
 │   └── models/
 ├── src/
-│   ├── image_detection.py
 │   ├── video_detection.py
 ├── output/
 │   ├── images/
