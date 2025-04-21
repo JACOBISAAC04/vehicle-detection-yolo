@@ -21,6 +21,7 @@ vehicle-detection-yolo/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── check_model_classes.py
 ```
 
 ## Installation
