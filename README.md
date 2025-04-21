@@ -83,7 +83,3 @@ Stores the processed outputs — detected images, video results, and animated GI
 
 ### notebooks/
 Exploratory notebooks used for testing and development.
-
-## License
-
-This project is licensed under the MIT License.
