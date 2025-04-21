@@ -1,6 +1,6 @@
 # Vehicle-Detection-YOLO
 
-This repository contains a project that uses the YOLOv8 model for detecting vehicles (cars, trucks, etc.) in images and videos. The project includes pre-trained models (linked externally), scripts for real-time image and video detection, and output examples.
+This repository contains a project that uses the YOLOv8 model for detecting vehicles (cars, trucks, etc.) in images and videos. The project includes pre-trained models (linked externally), scripts for real-time video detection, and output examples.
 
 ## Project Structure
 
