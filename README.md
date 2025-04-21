@@ -1,6 +1,6 @@
 # Vehicle-Detection-YOLO
 
-This repository contains a project that uses the YOLOv8 model for detecting vehicles (cars, trucks, etc.) in images and videos. The project includes pre-trained models (linked externally), scripts for real-time video detection, and output examples.
+This repository contains a project that uses the YOLOv8 model for detecting vehicles (cars, trucks, etc.) in images and videos. The project includes pre-trained models (linked externally), scripts for real-time video detection.
 
 ## Project Structure
 
@@ -55,13 +55,6 @@ Run the following command to detect vehicles in a video and generate a GIF:
 ```bash
 python src/video_detection.py --video data/videos/input_video.mp4 --output_video output/videos/output_video.mp4 --output_gif output/gifs/output_video.gif
 ```
-
-## Example Output
-
-Here is an example output of the video detection saved as a GIF:
-
-![Example Output](output/gifs/output_video.gif)
-
 ## Project Components
 
 ### data/
